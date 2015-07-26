@@ -9,7 +9,7 @@ Spring MVC based REST messaging service.
 mvn clean install tomcat:run 
 ```
 
-## Technologies are used:
+##  Used technologies:
 * JPA2 Hibernate implementation
 * H2 database
 * spring-data
