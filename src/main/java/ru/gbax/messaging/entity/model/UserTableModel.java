@@ -1,7 +1,7 @@
 package ru.gbax.messaging.entity.model;
 
 /**
- * Created by GBAX on 26.07.2015.
+ * Модель для строки таблицы пользователей
  */
 public class UserTableModel {
 

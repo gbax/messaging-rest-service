@@ -13,7 +13,7 @@ import javax.persistence.criteria.Root;
 import java.util.List;
 
 /**
- * Created by GBAX on 26.07.2015.
+ * Расширение для репозитория сообщений
  */
 public class MessageRepositoryImpl implements MessageRepositoryCustom {
 

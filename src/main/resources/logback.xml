@@ -21,7 +21,7 @@
     <logger name="org.springframework.web" level="info" />
     <logger name="org.hibernate" level="warn" />
 
-    <root level="warn">
+    <root level="debug">
         <appender-ref ref="stdout" />
     </root>
 

@@ -1,7 +1,7 @@
 package ru.gbax.messaging.entity.model;
 
 /**
- * Created by GBAX on 24.07.2015.
+ * Модель для регистрации пользователя
  */
 public class RegistrationDataModel {
 

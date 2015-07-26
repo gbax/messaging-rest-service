@@ -3,7 +3,7 @@ package ru.gbax.messaging.entity.model;
 import java.util.List;
 
 /**
- * Created by GBAX on 26.07.2015.
+ * Модель для списка сообщений
  */
 public class MessageListModel {
 

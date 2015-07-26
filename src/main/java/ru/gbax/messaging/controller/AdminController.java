@@ -16,7 +16,7 @@ import java.io.Writer;
 import java.util.List;
 
 /**
- * Created by GBAX on 26.07.2015.
+ * Контроллер для работы с администраторскими функцияи
  */
 @Controller
 @RequestMapping(value = "/admin")
@@ -56,7 +56,7 @@ public class AdminController {
 
     @RequestMapping(value = "/makeNotAdmin/{id}", method = RequestMethod.GET)
     @ResponseBody
-    public CheckModel makeNotAdmin(@PathVariable("id") Long id)throws ServiceErrorException {
+    public CheckModel makeNotAdmin(@PathVariable("id") Long id) throws ServiceErrorException {
         userService.makeNotAdmin(id);
         return new CheckModel(true);
     }
@@ -64,7 +64,7 @@ public class AdminController {
 
     @RequestMapping(value = "/makeAdmin/{id}", method = RequestMethod.GET)
     @ResponseBody
-    public CheckModel makeAdmin(@PathVariable("id") Long id)throws ServiceErrorException {
+    public CheckModel makeAdmin(@PathVariable("id") Long id) throws ServiceErrorException {
         userService.makeAdmin(id);
         return new CheckModel(true);
     }

@@ -6,8 +6,7 @@ import org.springframework.stereotype.Service;
 import ru.gbax.messaging.entity.User;
 
 /**
- * Created by abayanov
- * Date: 18.08.14
+ * Сервис для работы с данными текущего пользователя
  */
 @Service
 public class SecurityService {

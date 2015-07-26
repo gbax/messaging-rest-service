@@ -1,7 +1,7 @@
 package ru.gbax.messaging.entity.model;
 
 /**
- * Модель для проверки
+ * Модель для возврата разультата
  */
 public class CheckModel {
 

@@ -1,7 +1,7 @@
 package ru.gbax.messaging.entity.model;
 
 /**
- * Created by GBAX on 25.07.2015.
+ * Модель для списка пользователей
  */
 public class UserModel {
     private Long id;

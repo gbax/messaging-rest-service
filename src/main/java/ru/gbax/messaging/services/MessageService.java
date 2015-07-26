@@ -19,7 +19,7 @@ import java.util.Date;
 import java.util.List;
 
 /**
- * Created by GBAX on 26.07.2015.
+ * Сервис для работы с сообщениями
  */
 @Service
 public class MessageService {
